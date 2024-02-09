@@ -75,7 +75,8 @@ output * bg ~/.config/sway/bg.jpg fill
 
     # Kill focused window
     bindsym $mod+Shift+q kill
-
+    bindsym $mod+Shift+Escape exec systemctl suspend
+    bindsym $mod+Shift+Backspace exec swaylock
     # Start your launcher
     bindsym $mod+d exec $menu
 

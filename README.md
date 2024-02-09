@@ -15,7 +15,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 # install additional packages
 
 ```
-sudo pacman -S kitty dunst firefox git neovim zsh stow tree github-cli lazygit
+sudo pacman -S kitty dunst firefox git neovim zsh stow tree github-cli lazygit noto-fonts-emoji
 yay -S rofi-lbonn-wayland
 ```
 # install oh my zsh

@@ -15,7 +15,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 # install additional packages
 
 ```
-sudo pacman -S kitty dunst firefox git neovim zsh stow tree github-cli lazygit noto-fonts-emoji
+sudo pacman -S kitty dunst firefox git neovim zsh stow ripgrep tree github-cli lazygit ttf-font-awesome ttf-agave-nerd pcmanfm-qt unzip
 yay -S rofi-lbonn-wayland
 ```
 # install oh my zsh
@@ -31,3 +31,8 @@ stow .
 ```
 
 Resolve all potential default that come from default configs already existing
+
+# Fonts
+
+Kitty is using a nerd fotn: Agave
+make sure it's installed

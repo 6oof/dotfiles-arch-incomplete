@@ -1,7 +1,7 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: "Noto Sans CJK KR Regular";
-  font-size: 13px;
+  font-family: Agave, "Font Awesome 6 Free";
+  font-size: 16px;
   min-height: 0;
 }
 
@@ -26,11 +26,11 @@ window#waybar.hidden {
 }
 
 #window {
-  margin: 2;
-  padding-left: 8;
-  padding-right: 8;
+  margin: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
   background-color: rgba(0,0,0,0.3);
-  font-size:14px;
+  font-size:16px;
   font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ button:hover {
 }
 
 #clock {
-  font-size:14px;
+  font-size:16px;
   font-weight: bold;
 }
 

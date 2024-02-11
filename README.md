@@ -16,7 +16,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 
 ```
 sudo pacman -S kitty dunst firefox git neovim zsh stow ripgrep tree github-cli lazygit ttf-font-awesome ttf-agave-nerd pcmanfm-qt unzip
-yay -S rofi-lbonn-wayland
+yay -S rofi-lbonn-wayland ttf-agave ttf-agave-nerd
 ```
 # install oh my zsh
 

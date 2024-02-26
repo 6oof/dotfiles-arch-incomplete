@@ -26,12 +26,10 @@ window#waybar.hidden {
 }
 
 #window {
-  margin: 2px;
   padding-left: 8px;
   padding-right: 8px;
   background-color: rgba(0,0,0,0.3);
   font-size:16px;
-  font-weight: bold;
 }
 
 button {
@@ -72,6 +70,9 @@ button:hover {
   background-color: #64727D;
   border-bottom: 3px solid #ffffff;
 }
+#clock{
+padding-top: 3px;
+}
 
 #clock,
 #battery,
@@ -89,11 +90,11 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
-  margin: 2px;
   padding-left: 4px;
   padding-right: 4px;
   background-color: rgba(0,0,0,0.3);
   color: #ffffff;
+  margin: 2px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -106,10 +107,6 @@ button:hover {
   margin-right: 0;
 }
 
-#clock {
-  font-size:16px;
-  font-weight: bold;
-}
 
 #battery icon {
   color: red;
@@ -173,18 +170,3 @@ label:focus {
   background-color: #eb4d4b;
 }
 
-/*
-
-window#waybar.solo {
-background-color: #FFFFFF;
-}
-
-window#waybar.termite {
-background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-background-color: #000000;
-border: none;
-}
- */
